@@ -58,7 +58,7 @@
                 "url": "https://github.com/voideditor/binaries/releases/download/$version/Void-win32-x64-$version.zip"
             },
             "arm64": {
-                "url": "https://github.com/chawyehsu/hok/releases/download/v$version/hok-aarch64-pc-windows-msvc.zip"
+                "url": "https://github.com/voideditor/binaries/releases/download/$version/Void-win32-arm64-$version.zip"
             }
         },
         "hash": {
