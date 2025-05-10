@@ -14,9 +14,9 @@
         "    info '[Portable Mode] Copying user data...'",
         "    Copy-Item \"$env:AppData\\Zed\" \"$dir\\data\\appdata\" -Recurse",
         "}",
-        "if (!(Test-Path \"$dir\\data\\local\") -and (Test-Path \"$env:USERPROFILE\\Local\\Zed\")) {",
+        "if (!(Test-Path \"$dir\\data\\local\") -and (Test-Path \"$env:USERPROFILE\\AppData\\Local\\Zed\")) {",
         "    info '[Portable Mode] Copying local files...'",
-        "    Copy-Item \"$env:USERPROFILE\\Local\\Zed\" \"$dir\\data\\local\" -Recurse",
+        "    Copy-Item \"$env:USERPROFILE\\AppData\\Local\\Zed\" \"$dir\\data\\local\" -Recurse",
         "}"
     ],
     "persist": "data",
