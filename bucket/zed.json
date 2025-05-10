@@ -10,18 +10,19 @@
         }
     },
     "post_install": [
-        "if (!(Test-Path \"$dir\\data\\appdata\") -and (Test-Path \"$env:AppData\\Zed\")) {",
-        "    info '[Portable Mode] Copying user data...'",
-        "    Copy-Item \"$env:AppData\\Zed\" \"$dir\\data\\appdata\" -Recurse",
-        "}",
-        "if (!(Test-Path \"$dir\\data\\local\") -and (Test-Path \"$env:USERPROFILE\\AppData\\Local\\Zed\")) {",
+        "",
+        "if (!(Test-Path \"$dir\\data\") -and (Test-Path \"$env:USERPROFILE\\AppData\\Local\\Zed\")) {",
         "    info '[Portable Mode] Copying local files...'",
-        "    Copy-Item \"$env:USERPROFILE\\AppData\\Local\\Zed\" \"$dir\\data\\local\" -Recurse",
+        "    Copy-Item \"$env:USERPROFILE\\AppData\\Local\\Zed\" \"$dir\\data\" -Recurse",
+        "}",
+        "",
+        "if (!(Test-Path \"$dir\\data\\config\") -and (Test-Path \"$env:AppData\\Zed\")) {",
+        "    info '[Portable Mode] Copying user data...'",
+        "    Copy-Item \"$env:AppData\\Zed\" \"$dir\\data\\config\" -Recurse",
         "}"
     ],
     "persist": "data",
-    "bin": "zed.exe",
-    "shortcuts": [["zed.exe", "Zed"]],
+    "shortcuts": [["zed.exe", "Zed", "--user-data-dir=\"$dir\\data\""]],
     "checkver": {
         "github": "https://github.com/deevus/zed-windows-builds"
     },
