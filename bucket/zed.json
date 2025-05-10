@@ -10,10 +10,12 @@
         }
     },
     "post_install": [
+        "",
         "if (!(Test-Path \"$dir\\data\\config\") -and (Test-Path \"$env:USERPROFILE\\AppData\\Local\\Zed\")) {",
         "    info '[Portable Mode] Copying user data...'",
         "    Copy-Item \"$env:USERPROFILE\\AppData\\Local\\Zed\" \"$dir\\data\" -Recurse",
         "}",
+        "",
         "if (Test-Path \"$env:AppData\\Zed\") {",
         "    info '[Portable Mode] Copying config...'",
         "    Copy-Item \"$env:AppData\\Zed\" \"$dir\\data\\config\" -Recurse",
