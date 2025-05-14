@@ -1,5 +1,5 @@
 {
-    "version": "1.99.30031",
+    "version": "1.99.30033",
     "description": "Void is an open source Cursor alternative.",
     "homepage": "https://voideditor.com/",
     "license": "Apache-2.0",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/voideditor/binaries/releases/download/1.99.30031/Void-win32-x64-1.99.30031.zip",
-            "hash": "90380a14f26c018767f992ac0521b03c503131e3a9187bb3a36d02267ce011e7"
+            "url": "https://github.com/voideditor/binaries/releases/download/1.99.30033/Void-win32-x64-1.99.30033.zip",
+            "hash": "1883b4e26d9c87d74b1057880eec4d69d1d05c8212bb1dbb23fff45d1602f1e4"
         },
         "arm64": {
-            "url": "https://github.com/voideditor/binaries/releases/download/1.99.30031/Void-win32-arm64-1.99.30031.zip",
-            "hash": "5862781d74dd47682bbca90280afd32051af66ae8fdc43a99f979ae22dae26f8"
+            "url": "https://github.com/voideditor/binaries/releases/download/1.99.30033/Void-win32-arm64-1.99.30033.zip",
+            "hash": "bc07d83f92ed12d2fe1152cbf653bc99517eca7c51805190e9d79fe78cb2cbf7"
         }
     },
     "post_install": [
