@@ -9,6 +9,7 @@
             "hash": "e2cf7af53f245c3816a4536546d6e13f83f5c4231e323ad11516e87997a60157"
         }
     },
+    "persist": "data",
     "post_install": [
         "if (!(Test-Path \"$dir\\data\\extensions\") -and (Test-Path \"$env:LocalAppData\\Zed\")) {",
         "    info '[Portable Mode] Copying user data...'",
@@ -19,7 +20,6 @@
         "    Copy-Item \"$env:AppData\\Zed\" \"$dir\\data\\config\" -Recurse",
         "}"
     ],
-    "persist": "data",
     "shortcuts": [
         [
             "zed.exe",
