@@ -45,7 +45,7 @@
         "}",
         "if (!(Test-Path \"$dir\\data\\extensions\") -and (Test-Path \"$env:USERPROFILE\\.trae\\extensions\")) {",
         "  info '[Portable Mode] Copying extensions...'",
-        "  Copy-Item \"$env:USERPROFILE\\.trae\\extensions\" \"$dir\\data\" -Recurse",
+        "  Copy-Item \"$env:USERPROFILE\\.trae\\*\" \"$dir\\data\" -Recurse",
         "}",
         "if (!(Test-Path \"$dir\\data\\user-data\") -and (Test-Path \"$env:AppData\\Trae\")) {",
         "  info '[Portable Mode] Copying user data...'",
