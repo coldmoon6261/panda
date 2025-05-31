@@ -1,5 +1,5 @@
 {
-    "version": "1.99.30034",
+    "version": "1.99.30036",
     "description": "Void is an open source Cursor alternative.",
     "homepage": "https://voideditor.com/",
     "license": "Apache-2.0",
@@ -9,16 +9,21 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/voideditor/binaries/releases/download/1.99.30034/Void-win32-x64-1.99.30034.zip",
-            "hash": "536597250fcf1c0a6049a698e90b9b9c93248d65a344d61043966d0906d765dc"
+            "url": "https://github.com/voideditor/binaries/releases/download/1.99.30036/Void-win32-x64-1.99.30036.zip",
+            "hash": "053e70658a1838010db24476c09c6174eada62da5eb06f98d78c1ef9181a4737"
         },
         "arm64": {
-            "url": "https://github.com/voideditor/binaries/releases/download/1.99.30034/Void-win32-arm64-1.99.30034.zip",
-            "hash": "191f8f327a16d3990f14714f8c2b9719ed4fcfa488de06e70d4ad1cbc16531e1"
+            "url": "https://github.com/voideditor/binaries/releases/download/1.99.30036/Void-win32-arm64-1.99.30036.zip",
+            "hash": "7013dc56fe45472855165ad12aceb4c5203903e91e5eb6162084c0185639d578"
         }
     },
     "env_add_path": "bin",
-    "shortcuts": [["Void.exe", "Void"]],
+    "shortcuts": [
+        [
+            "Void.exe",
+            "Void"
+        ]
+    ],
     "persist": "data",
     "post_install": [
         "$dirpath = \"$dir\".Replace('\\', '\\\\')",
