@@ -5,12 +5,12 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.18/Netcatty-1.1.18-win-x64.exe",
+            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.18/Netcatty-1.1.18-win-x64.exe#/dl.7z",
             "hash": "4a6617d5f78b53012a90a1f96ff27cecd3ef9bb598918cbbdbb3b1fffb53884b"
         },
         "arm64": {
-            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.1/Netcatty-1.1.1-win-arm64.exe#/dl.7z",
-            "hash": ""
+            "url": "https://github.com/binaricat/Netcatty/releases/download/v1.1.18/Netcatty-1.1.18-win-arm64.exe#/dl.7z",
+            "hash": "1285d65aab208b85fc8e4f505d2dd11cd50ede2e3d48a24ccdf4ef35080fd620"
         }
     },
     "extract_dir": "$PLUGINSDIR",
@@ -32,10 +32,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/binaricat/Netcatty/releases/download/v$version/Netcatty-$version-win-x64.exe"
+                "url": "https://github.com/binaricat/Netcatty/releases/download/v$version/Netcatty-$version-win-x64.exe#/dl.7z"
             },
-            "32bit": {
-                "url": "https://github.com/binaricat/Netcatty/releases/download/v$version/Netcatty-$version-win.exe"
+            "arm64": {
+                "url": "https://github.com/binaricat/Netcatty/releases/download/v$version/Netcatty-$version-win-arm64.exe#/dl.7z"
             }
         }
     }
