@@ -1,16 +1,16 @@
 {
-    "version": "0.1.3250",
+    "version": "0.1.3257",
     "description": "Every agent's model. One place.",
     "homepage": "https://usemagpie.ai",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.3250/magpie-windows-amd64.exe#/magpie.exe",
-            "hash": "b198e702ef85a0edbf105ab10f6ada2fe81e14547422ae2861af1a9036187e94"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.3257/magpie-windows-amd64.exe#/magpie.exe",
+            "hash": "e72a7fbaaa14d5118d7209607b6feacf7cec359c4ff3d7667b602d5aecea109a"
         },
         "arm64": {
-            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.3250/magpie-windows-arm64.exe#/magpie.exe",
-            "hash": "7eff81e832f6b364b29d96070be4b4f93147d48e678f79744e4b2cc5aa8bf537"
+            "url": "https://github.com/yetone/magpie-releases/releases/download/v0.1.3257/magpie-windows-arm64.exe#/magpie.exe",
+            "hash": "62d6b5fdb143266a3e98b8af7b34d04213b81ff51cbb6c3b85e88ec44f381328"
         }
     },
     "pre_install": [
