@@ -1,5 +1,5 @@
 {
-    "version": "3.7.2.2",
+    "version": "3.7.3.0",
     "description": "强大且免费的截图贴图工具。",
     "homepage": "https://pixpin.cn/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download.pixpin.cn/PixPin_win_3.7.2.2.zip",
-            "hash": "8b0c734b2edcb82df4d635517ec4d74ee349a1c210624045a5193c87e11543d8"
+            "url": "https://download.pixpin.cn/PixPin_win_3.7.3.0.zip",
+            "hash": "3e4f1d788e58c5e5d595a91a1a0b443526b7fb36ce97f6077e4937c2b693dbb9"
         }
     },
     "extract_dir": "PixPin",
